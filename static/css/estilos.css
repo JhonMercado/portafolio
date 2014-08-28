@@ -1,0 +1,33 @@
+.u-title{
+	color:red;
+}
+.Header {
+	background:gray;
+	
+
+}
+.Header-imageContainer{
+
+}
+.Header-name{
+
+}
+.MainMenu{
+
+}
+.Profile{
+  display: inline-block;
+  background: lightgray;
+  vertical-align: bottom;
+}
+.Profile-span{
+    background: lightgray;
+    color :white;
+    font-weight: bold;
+}
+.Work{
+
+}
+.Footer{
+
+}
