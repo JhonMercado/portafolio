@@ -3,44 +3,104 @@
 	<head>
 		<title>Portafolio Online Jhon Mercado</title>
 		<meta charset="uft-8"/>
+		<link rel="stylesheet" href="../static/css/normalize.css">
+		<link rel="stylesheet" href="../static/css/estilos.css"/>
+
+		
 	</head>
+	
 	<body>
-		<header>
-			<nav>
-				<ul>
-                    <li>
-                    	<a href="">Yo</a>
+		
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+                    <li  class="MainMenu-item">
+                    	<a class="MainMenu-link" href="#yo">Yo</a>
                     </li> 
-                    <li>
-                    	<a href="">Perfil</a>
+                    <li class="MainMenu-item"> 
+                    	<a class="MainMenu-link" href="#perfil">Perfil</a>
                     </li> 
-                    <li>
-                    	<a href="">Trabajo</a>
+                    <li class="MainMenu-item"> 
+                    	<a class="MainMenu-link" href="#trabajo">Trabajo</a>
                     </li> 
-                    <li>
-                    	<a href="">Contacto</a>
+                    <li class="MainMenu-item"> 
+                    	<a class="MainMenu-link" href="#contacto">Contacto</a>
                     </li> 
 				</ul>
 			</nav>
-			<figure>
-				<img src="avatar.jpg" alt="Imagen personal"/>
-				<figcaption><a href="http://twiter.com/jhonmercado1801" target="_black">@jhonmercado1801</a></figcaption>
+			<figure  class="Header-imageContainer">
+				<img class="Header-image" src="avatar.jpg" alt="Imagen personal"/>
+				<figcaption class="Header-imageDescription"><a class="Header-link" href="http://twiter.com/jhonmercado1801" target="_black">@jhonmercado1801</a></figcaption>
 			</figure>
-			<p>Jhon Mercado</p>	
+			<p class="Header-name">Jhon Mercado</p>	
 		</header>
-		<section>
-			<p> 
-				Descripcion
+		
+		<section id="perfil" class="Profile">
+			<h2 class="Profile-title">Mi Perfil</h2>
+			<p class="Profile-description"> 
+				Hola, si has llegado hasta aqui , puedes ver mi portafolio y contactame.
 			</p>
-			<a href="http://twiter.com/jhonmercado1801" target="_black">@jhonmercado1801</a>
-			<a href="http://facebook.com/jhon.mercado1802" target="_black">Jhon Mercado</a>
-			<a href="http://twiter.com/jhonmercado1801" target="_black">@jhonmercado1801</a>
+			<a class="Profile-link" href="http://twiter.com/jhonmercado1801" target="_black">@jhonmercado1801</a>
+			<a class="Profile-link" href="http://facebook.com/jhon.mercado1802" target="_black">Jhon Mercado</a>
+			<a class="Profile-link" href="https://github.com/JhonMercado/portafolio" target="_black">JhonMercado</a>
 
 		</section>
-		<section></section>
-		<footer></footer>
+
+		<section id="trabajo" class="Work">
+			<h2 class="Work-title">Mi trabajo</h2>
+			<article class="Work-item" > 
+				<figure class="Work-imageContainer"  >
+					<img class="Work-image"  src="mejorandola.jpg" alt="Descricion imagen">
+					<figcaption Class="Work-imageDescription">
+						Website Mejorando.la
+					</figcaption>
+				</figure>
+			</article>
+
+			<article class="Work-item">
+				<figure class="Work-imageContainer" >
+					<img class="Work-image" src="mejorandola.jpg" alt="Descricion imagen">
+					<figcaption Class="Work-imageDescription">
+						Website Mejorando.la
+					</figcaption>
+				</figure>
+			</article>
+
+			<article class="Work-item">
+				<figure class="Work-imageContainer" >
+					<img class="Work-image" src="mejorandola.jpg" alt="Descricion imagen">
+					<figcaption Class="Work-imageDescription">
+						Website Mejorando.la
+					</figcaption>
+				</figure>
+			</article>
+
+			<article class="Work-item">
+				<figure class="Work-imageContainer" >
+					<img class="Work-image" src="mejorandola.jpg" alt="Descricion imagen">
+					<figcaption Class="Work-imageDescription">
+						Website Mejorando.la
+					</figcaption>
+				</figure>
+			</article>
+		</section>
+		
+		<footer id="contacto" >
+			<h3>Contacto</h3>
+			<p>Si tienes una sugerencia o quieres trabajar conmigo, ponte en contacto con este formulario.</p>
+		</footer  class=Footer>
+		<h3 class="Footer-title"></h3>
+		<form class=Footer-form>
+			
+			<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+			<input class="Footer-formInput" type="email" placeholder="Email"/>
+			<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+			<button class="Footer-button" type="submit">Contactarme</button>
+
+		</form>
 
 	
 	</body>
+
 </html>
 
