@@ -1,33 +1,32 @@
-.u-title{
-	color:red;
-}
-.Header {
-	background:gray;
-	
-
-}
-.Header-imageContainer{
-
-}
-.Header-name{
-
-}
+/*Primer componente Menu*/
 .MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em; /*un em corresponde al tamaño de la fuente el cual lo indicamos en normalize*/
+	position:fixed; /* fijamos el menu para que sea visible siempre*/
+	/* le damos todo el ancho del navegador al menu colocando left: 0; 	right: 0; */
+	left: 0; 
+	right: 0;
+	top:0;
+  
+}
+.MainMenu-list{
+	margin:0;
+	padding: 0;
+}
 
+.MainMenu-item{
+	display: inline-block;
 }
-.Profile{
-  display: inline-block;
-  background: lightgray;
-  vertical-align: bottom;
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;/* nos centar el link con respecto a su padre de manera vertical*/
+    margin-right: 1.5em; /*Separamos las opciones del menu*/ 
 }
-.Profile-span{
-    background: lightgray;
-    color :white;
-    font-weight: bold;
-}
-.Work{
 
-}
-.Footer{
+/*Segundo componente Header*/
 
+.Header{
+	margin-top: 3.75em;
 }
