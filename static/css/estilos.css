@@ -1,4 +1,8 @@
 /*Utilidades*/
+.u-containerDefault{
+	width: 800px;
+	margin: 0 auto; /*Centrado*/
+}
 .u-title{
 	border-bottom: 2px dashed #00CCFF; /*borde punteado*/
 	color: #00CCFF;
@@ -48,7 +52,11 @@
 .Header-image{
 	border: 5px solid white;
 	border-radius: 50%;
-	width: 19%;
+	/*width: 19%;*/
+}
+.Header-image:hover{
+	-webkit-transition
+
 }
 .Header-imageContainer{
 	margin:0;
@@ -143,8 +151,7 @@
 }
 .Footer-left{
 	display: inline-block;
-	width: 32em;
+	max-width: 32em;
 	text-align: center;
 	vertical-align: top;
-	
 }
