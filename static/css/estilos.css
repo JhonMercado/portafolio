@@ -52,15 +52,17 @@
 .Header-image{
 	border: 5px solid white;
 	border-radius: 50%;
-	/*width: 19%;*/
+
 }
 .Header-image:hover{
 	-webkit-transition
 
 }
 .Header-imageContainer{
-	margin:0;
+	margin:0 auto;
+	
 }
+
 .Header-link, .Header-name{
 	color:white;
 
